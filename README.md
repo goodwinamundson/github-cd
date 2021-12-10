@@ -1,64 +1,54 @@
-# fullstack-online
+# Coding Online Course Overview
 
-Welcome to the Coding Online Boot Camp! This repository houses the Coding Online curriculum and is divided into two pillars:
+Welcome to the Coding Online Boot Camp! Many factors influence how well and how quickly you learn something new. These include how you structure and sequence your learning, stay motivated and curious about the material, and leverage prior knowledge to build new knowledge that you can apply in different situations. 
 
-* Student-facing class content
+Learning to become a full-stack web developer is challenging. It will take a lot of internal drive and outside support. To make that journey a bit easier, the course is structured to keep motivation high and connections between concepts clear. Read on to learn about how the class is broken down.
 
-* Instructor-facing lesson plans
+## Section 1: Foundation (Modules 1–6)
 
-## Need Help?
+The first third of the course is focused on the front end of web development. The front end includes the things you see and interact with in the browser, such as when you click a login button and a box pops up inviting you to enter your username and password. Front-end languages, techniques, and libraries are foundational to being a full-stack web developer, so you’ll continuously build on these concepts throughout the entire course.
 
-If you find an error or bug in our curriculum, please submit feedback using the [Coding Online Feedback Form for Instructional Teams](https://forms.gle/gbVpzgf6TK4Z2Bf78). The contents of your form submission go directly to our curriculum team.
+### Project 1: Modules 7–8
 
-**Note:** If a bug is related to a virtual class lesson plan in this repository, please create a GitHub issue for faster resolution.
+The boot camp will be taxing, and having something you can look back on and be proud of early in the course helps keep motivation and morale high. It’s totally possible to build a cool, interactive web application after the first several weeks&mdash;and this is exactly what you'll do for your first group project! 
 
-Please see the [FullStack-Online Wiki](https://github.com/coding-boot-camp/fullstack-online/wiki) for contributing guidelines.
+To do this, you'll develop the front end yourself and leverage other people’s servers and APIs. Past students have created some pretty cool projects, including Food Finder, an app that helps you find recipes, and Fourth and Lawn, an app that helps you find parking at sporting events.
 
-For information about onboarding and training, please consult your Onboarding course in Canvas. If you don't have access or a Canvas account, please email support@bootcampspot.com and provide your name and university.
+## Section 2: Technique (Modules 9–14)
 
-In case of emergency, message the Full-Stack Online Program Support Manager, `@Courtney Mathena`, in [#05-coding-online](https://trilogyed-instruction.slack.com/archives/CTDADCHD2).
+You could stop here and look for a job as a front-end web developer. But the field demands more, and there are many opportunities for developers who can also build a back end. So during the second section of the course, you’ll learn how to create your own server. Having a back end allows you to use a server to make and receive requests from the front end. For example, when you enter your username and password in a login dialog and click submit, those credentials are validated via a back-end server.
 
-## How to Use This Repository
+### Project 2: Modules 15–16
 
-### Class Content
+As a group project for the second section, you'll combine your ability to create a front-end website with your new ability to write server code to create a web application that interacts with your server code.
 
-You will find the following in [01-Class-Content](./01-Class-Content):
+This project will help you reinforce your existing front-end abilities and solidify how you conceive of the front-end and back-end dynamic. If your front-end fundamentals were solid at the end of the first section, you'll be building on a strong foundation as you undertake this project. An example of a student project from this stage is using JSON web tokens to make Recruit Analyzer, a basketball recruit simulator.
 
-* Module instructor overviews
+## Section 3: Performance (Modules 17–22)
 
-* In-class activities
+The third section of the course primarily focuses on React and computer science fundamentals. React is a front-end advanced library that has become very popular in recent years. Why do we go back to the front end at the very end? Well, unlike jQuery, React brings a certain level of abstraction that's harder to grasp without a working understanding of the back end. 
 
-* Challenge instructions, starter code, and solutions
+React lets us create highly reusable components. Instead of having to create the same element multiple times, React allows us to create it once and render it as many times as necessary for our application. We can even dynamically render these components to populate information only as needed and not take up more memory than necessary.
 
-* Weekly algorithms (where applicable)
+We’ll also cover computer science fundamentals, which are essential to web development. Though this content is no replacement for a computer science degree, you'll learn what you need to know to work efficiently and create optimized code, including sorting algorithms and Big O notation.
 
-* Supplemental content such as installation guides and learning resources
+### Final Project: Modules 23–24
 
-* Module Project code 
+As a capstone to the boot camp, you’ll work with a group to build a full-stack application that uses a wide swath of the languages and libraries that you learned throughout the course. We can’t wait to see what you build!
 
-  This is the code for the projects that students build in their asynchronous modules in Canvas. You'll find the following in each `05-Module-Project` folder: 
+## Up Next
 
-  1. a `main` folder containing the final project build
+For a closer look at each module, refer to the module overviews to learn:
 
-  2. a `lesson-files` folder containing the snapshots of where the code should be at the end of each lesson in an asynchronous module of content
+* What you will learn and why it’s important
 
-Use these materials to build your class repository.
+* How topics in the unit relate to what came earlier in the boot camp
 
-### Lesson Plans
+* Activities you’ll complete and the skills they focus on
 
-You will find the following in [02-lesson-plans](./02-Lesson-Plans):
+* Common interview questions related to that week’s material
 
-* Lesson plans
-
-* Grading rubrics
-
-* Links to slide decks (where applicable)
-
-The `02-Lesson-Plans/README.md` contains tips, alerts, and resources for all modules. 
-
-Each module contains a README.md overview containing tips, alerts, and resources specific to that module. 
-
-📝 The lesson plans in this repo are instructor-facing only and should **not** be shared with students. 
+* Helpful resources if you want to get ahead or gain more experience after the module
 
 ---
 © 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
