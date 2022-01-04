@@ -98,8 +98,35 @@ What is it doing here?
 TODO: Write your answer here 
 */
 @media screen and (max-width: 768px) {
+
+
+
+
   main,
   nav {
     flex-direction: column;
+    color : red;
   }
+
+
+
+
+
+}
+
+@media screen and (max-width: 1028px) {
+
+
+
+  
+  main,
+  nav {
+    flex-direction: column;
+    color : salmon;
+  }
+
+
+
+
+
 }
