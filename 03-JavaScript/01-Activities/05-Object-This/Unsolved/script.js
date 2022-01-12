@@ -3,12 +3,14 @@ console.log(this);
 
 // TODO: What is `this` referring to here?
 function helloThis() {
-  console.log('Inside this function, this is ' + this);
+  console.table(this);
 }
 
 // TODO: What is `this` referring to here? What will be logged in the console?
 var child = {
   age: 10,
+  firstName: "Bart",
+  lastNAme: "Simpson",
   ageTenYears: function() {
     console.log(this.age + 10);
   }
