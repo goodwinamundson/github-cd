@@ -8,4 +8,7 @@ echo "Enter your name:"
 read name
 echo "Enter your favorite breakfast cereal:"
 read cereal
-echo "Hello" $name, "you enjoy" $cereal "at breakfast 🥣"
+echo $'\n 🥣    🥣    🥣    🥣    🥣    🥣    🥣    🥣    🥣    🥣    🥣    🥣\n'
+echo "Hello" $name, "you enjoy" $cereal "at breakfast 😋 " > ./output.txt
+cat ./output.txt
+echo $'\n 🥣    🥣    🥣    🥣    🥣    🥣    🥣    🥣    🥣    🥣    🥣    🥣\n'
