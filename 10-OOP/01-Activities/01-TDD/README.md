@@ -14,7 +14,7 @@ Work with a partner to implement the following user story:
 
 ## 📝 Notes
 
-For this activity, no code has been added to the `algo.js` test. As a result, all of the tests will fail. This is the expected behavior. Later, we will build on these skills to write tests that define the expectations of actual code.
+For this activity, code has already been implemented in the `algo.js` file, but not in `algo.test.js`. As a result, all of the tests will fail. This is the expected behavior. Your job is to practice writing tests that define the expectations of the already written code.
 
 Refer to the documentation:
 
