@@ -129,3 +129,5 @@ dist
 output.txt
 package-lock.json
 output-images
+
+.DS_Store
