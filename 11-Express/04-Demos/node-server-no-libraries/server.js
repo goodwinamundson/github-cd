@@ -6,8 +6,10 @@ var url = require('url');
 http.createServer(function (req, res) {
 
   res.writeHead(200, {'Content-Type': 'text/html'});
+  
   var q = url.parse(req.url, true).query;
   var txt = `<center><h1>${q.month}, ${q.year}</h1></center>`;
+
   res.end(txt);
 
 }).listen(8080);
