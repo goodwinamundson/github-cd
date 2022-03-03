@@ -17,8 +17,12 @@ app.use(express.json());
 // Use apiRoutes
 app.use('/api', apiRoutes);
 
- 
+app.get("*", function(req, res){
+	res.redirect('/pathfinder');
+})
 
 app.listen(PORT, () => {
   console.log(`API server now on port ${PORT}!`);
 });
+
+// 
